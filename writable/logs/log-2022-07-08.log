@@ -1,0 +1,363 @@
+ERROR - 2022-07-08 05:43:29 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-07-08 05:43:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/BarangModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Api/Barang.php(18): App\Models\BarangModel->getBarang()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Barang->index()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-08 05:44:14 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-07-08 05:44:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/BarangModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Api/Barang.php(18): App\Models\BarangModel->getBarang()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Barang->index()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-08 05:44:43 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-07-08 05:44:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/BarangModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Api/Barang.php(18): App\Models\BarangModel->getBarang()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Barang->index()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 06:21:22 --> Invalid file: layout/kategori/form.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Kategori.php(14): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kategori->add()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 07:38:43 --> Call to undefined method App\Controllers\Api\Kategori::post()
+in APPPATH/Controllers/Api/Kategori.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->create()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 07:38:56 --> Undefined property: App\Controllers\Api\Kategori::$input
+in APPPATH/Controllers/Api/Kategori.php on line 57.
+ 1 APPPATH/Controllers/Api/Kategori.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->create()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 07:43:12 --> Undefined variable: request
+in APPPATH/Controllers/Api/Kategori.php on line 57.
+ 1 APPPATH/Controllers/Api/Kategori.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->create()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 07:44:19 --> Call to undefined method App\Controllers\Api\Kategori::save()
+in APPPATH/Controllers/Api/Kategori.php on line 58.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->create()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 07:44:39 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 718.
+ 1 SYSTEMPATH/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(666): CodeIgniter\BaseModel->insert()
+ 3 SYSTEMPATH/BaseModel.php(658): CodeIgniter\Model->insert()
+ 4 APPPATH/Controllers/Api/Kategori.php(58): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->create()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 07:44:56 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 718.
+ 1 SYSTEMPATH/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(666): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Api/Kategori.php(58): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->create()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 07:45:57 --> Call to undefined method App\Models\KategoriModel::create
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Api/Kategori.php(58): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->create()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 08:16:04 --> Undefined variable: id
+in APPPATH/Views/layout/kategori/form.php on line 42.
+ 1 APPPATH/Views/layout/kategori/form.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layout/kategori/form.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Kategori.php(14): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Kategori->add()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:10:44 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:12:26 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:12:26 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:12:28 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:12:28 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:12:30 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:12:30 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:12:33 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:12:33 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:12:33 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:12:35 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:12:35 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:12:35 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:13:32 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:13:32 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:13:32 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(109): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:13:48 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(108): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:31:00 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 846.
+ 1 SYSTEMPATH/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->update()
+ 4 APPPATH/Controllers/Api/Kategori.php(85): CodeIgniter\BaseModel->save()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->update()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 10:31:54 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getPut()
+in APPPATH/Controllers/Api/Kategori.php on line 84.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Kategori->update()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-08 11:37:51 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-07-08 11:37:51 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Api/Barang.php(30): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Barang->show()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 11:40:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::leftJoin()
+in APPPATH/Models/BarangModel.php on line 21.
+ 1 APPPATH/Controllers/Api/Barang.php(18): App\Models\BarangModel->getBarang()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Barang->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 11:42:19 --> Call to undefined function App\Controllers\Api\getBarangByCode()
+in APPPATH/Controllers/Api/Barang.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Barang->show()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-08 11:42:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH/Models/BarangModel.php on line 34.
+ 1 APPPATH/Controllers/Api/Barang.php(30): App\Models\BarangModel->getBarangByCode()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Barang->show()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

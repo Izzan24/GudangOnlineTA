@@ -1,0 +1,8 @@
+CRITICAL - 2022-08-15 21:52:21 --> cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to api-ap1.pusher.com:443  (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api-ap1.pusher.com/apps/1440695/events?auth_key=b67c982cfe9b4de71605&auth_timestamp=1660575126&auth_version=1.0&body_md5=b4b76e8134e8e39e42650bb4972082ad&auth_signature=42691921f10e623282d8ad5bec54769fae1a28f25d36bc874230e627c22bb13d
+in VENDORPATH/pusher/pusher-php-server/src/Pusher.php on line 442.
+ 1 APPPATH/Controllers/Api/Pusher.php(40): Pusher\Pusher->trigger()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Pusher->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

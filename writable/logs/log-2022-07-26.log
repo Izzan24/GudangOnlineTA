@@ -1,0 +1,311 @@
+CRITICAL - 2022-07-26 18:48:04 --> syntax error, unexpected '}'
+in APPPATH/Controllers/Api/BarangMasuk.php on line 106.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 18:48:04 --> syntax error, unexpected '}'
+in APPPATH/Controllers/Api/BarangMasuk.php on line 106.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 19:50:58 --> Trying to get property 'barang' of non-object
+in APPPATH/Controllers/Api/BarangMasuk.php on line 89.
+ 1 APPPATH/Controllers/Api/BarangMasuk.php(89): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-26 19:51:33 --> Cannot add or update a child row: a foreign key constraint fails (`gudang`.`table_detail_barang_masuk`, CONSTRAINT `table_detail_barang_masuk_barang_masuk_foreign` FOREIGN KEY (`barang_masuk`) REFERENCES `table_barang_masuk` (`faktur`))
+CRITICAL - 2022-07-26 19:51:33 --> Cannot add or update a child row: a foreign key constraint fails (`gudang`.`table_detail_barang_masuk`, CONSTRAINT `table_detail_barang_masuk_barang_masuk_foreign` FOREIGN KEY (`barang_masuk`) REFERENCES `table_barang_masuk` (`faktur`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(738): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(666): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/Api/BarangMasuk.php(94): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+10 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 19:54:04 --> Call to a member function getInsertID() on array
+in APPPATH/Controllers/Api/BarangMasuk.php on line 95.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 19:54:18 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, int returned
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 2 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/Api/BarangMasuk.php(95): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 19:54:34 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Api/BarangMasuk.php(95): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 19:55:50 --> Call to a member function getInsertID() on int
+in APPPATH/Controllers/Api/BarangMasuk.php on line 97.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 19:56:03 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Api/BarangMasuk.php(97): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 19:57:08 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Api/BarangMasuk.php(97): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-26 19:58:05 --> Duplicate entry 'F01' for key 'PRIMARY'
+CRITICAL - 2022-07-26 19:58:05 --> Duplicate entry 'F01' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(738): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(666): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/Api/BarangMasuk.php(83): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+10 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 20:02:12 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Api/BarangMasuk.php(97): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 20:04:59 --> Call to a member function getInsertID() on int
+in APPPATH/Controllers/Api/BarangMasuk.php on line 93.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 20:05:53 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Api/BarangMasuk.php(98): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-26 20:07:56 --> Duplicate entry 'F01' for key 'PRIMARY'
+CRITICAL - 2022-07-26 20:07:56 --> Duplicate entry 'F01' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(738): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(666): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/Api/BarangMasuk.php(83): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+10 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 20:08:25 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Api/BarangMasuk.php(98): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 20:14:16 --> Call to undefined method App\Models\ArusStokModel::getQuery
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Api/BarangMasuk.php(103): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-26 20:42:21 --> Unknown column 'table_arus_stok.barang_masuk_detail' in 'on clause'
+CRITICAL - 2022-07-26 20:42:21 --> Unknown column 'table_arus_stok.barang_masuk_detail' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ArusStokModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Api/Stok.php(24): App\Models\ArusStokModel->getArusStok()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->index()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-26 20:42:26 --> Unknown column 'table_arus_stok.barang_masuk_detail' in 'on clause'
+CRITICAL - 2022-07-26 20:42:26 --> Unknown column 'table_arus_stok.barang_masuk_detail' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ArusStokModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Api/Stok.php(24): App\Models\ArusStokModel->getArusStok()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->index()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-26 20:43:42 --> Unknown column 'table_arus_stok.barang_masuk_detail' in 'on clause'
+CRITICAL - 2022-07-26 20:43:42 --> Unknown column 'table_arus_stok.barang_masuk_detail' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ArusStokModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Api/Stok.php(24): App\Models\ArusStokModel->getArusStok()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->index()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-26 20:55:23 --> Unknown column 'table_arus_stok.barang_masuk_detail' in 'on clause'
+CRITICAL - 2022-07-26 20:55:23 --> Unknown column 'table_arus_stok.barang_masuk_detail' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ArusStokModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Api/Stok.php(24): App\Models\ArusStokModel->getArusStok()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->index()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 20:56:01 --> Undefined index: barang_masuk
+in APPPATH/Controllers/Api/BarangMasuk.php on line 66.
+ 1 APPPATH/Controllers/Api/BarangMasuk.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->create()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-26 21:47:30 --> Unknown column 'table_arus_stok.barang_masuk_detail' in 'on clause'
+CRITICAL - 2022-07-26 21:47:30 --> Unknown column 'table_arus_stok.barang_masuk_detail' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ArusStokModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Api/Stok.php(24): App\Models\ArusStokModel->getArusStok()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->index()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-26 21:51:32 --> Table 'gudang.table_arus_stok' doesn't exist
+CRITICAL - 2022-07-26 21:51:32 --> Table 'gudang.table_arus_stok' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ArusStokModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Api/Stok.php(36): App\Models\ArusStokModel->getDetailStok()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->show()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-26 21:51:43 --> Table 'gudang.table_arus_stok' doesn't exist
+CRITICAL - 2022-07-26 21:51:43 --> Table 'gudang.table_arus_stok' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ArusStokModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Api/Stok.php(36): App\Models\ArusStokModel->getDetailStok()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->show()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-26 21:54:40 --> Unknown column 'harga_jual' in 'field list'
+CRITICAL - 2022-07-26 21:54:40 --> Unknown column 'harga_jual' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ArusStokModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Api/Stok.php(36): App\Models\ArusStokModel->getDetailStok()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->show()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 23:20:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+in APPPATH/Models/ArusStokModel.php on line 55.
+ 1 APPPATH/Controllers/Api/Stok.php(36): App\Models\ArusStokModel->getDetailStok()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->show()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

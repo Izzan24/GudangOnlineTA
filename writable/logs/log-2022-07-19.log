@@ -1,0 +1,116 @@
+ERROR - 2022-07-19 07:31:50 --> Table 'table_barang_masuk' already exists
+ERROR - 2022-07-19 07:32:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '+ INTERVAL 3 HOUR,
+	CONSTRAINT `pk_table_arus_stok` PRIMARY KEY(`id`)
+) DEFAU...' at line 8
+ERROR - 2022-07-19 07:36:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '+ INTERVAL 3 HOUR,
+	CONSTRAINT `pk_table_arus_stok` PRIMARY KEY(`id`)
+) DEFAU...' at line 8
+CRITICAL - 2022-07-19 08:29:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH/Models/ArusStokModel.php on line 22.
+ 1 APPPATH/Controllers/Api/Rfid.php(42): App\Models\ArusStokModel->rfidCheck()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Rfid->show()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-19 08:30:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH/Models/ArusStokModel.php on line 22.
+ 1 APPPATH/Controllers/Api/Rfid.php(42): App\Models\ArusStokModel->rfidCheck()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Rfid->show()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-19 08:35:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH/Models/ArusStokModel.php on line 22.
+ 1 APPPATH/Controllers/Api/Rfid.php(40): App\Models\ArusStokModel->rfidCheck()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Rfid->show()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-19 08:36:00 --> Undefined variable: model
+in APPPATH/Models/ArusStokModel.php on line 22.
+ 1 APPPATH/Models/ArusStokModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Api/Rfid.php(40): App\Models\ArusStokModel->rfidCheck()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Rfid->show()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-19 08:36:05 --> Call to a member function where() on null
+in APPPATH/Models/ArusStokModel.php on line 22.
+ 1 APPPATH/Controllers/Api/Rfid.php(40): App\Models\ArusStokModel->rfidCheck()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Rfid->show()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-19 08:36:36 --> Call to a member function where() on string
+in APPPATH/Models/ArusStokModel.php on line 22.
+ 1 APPPATH/Controllers/Api/Rfid.php(40): App\Models\ArusStokModel->rfidCheck()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Rfid->show()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-19 08:36:47 --> Call to a member function getResult() on null
+in APPPATH/Controllers/Api/Rfid.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Rfid->show()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-19 08:37:13 --> Call to a member function insert() on null
+in APPPATH/Models/ArusStokModel.php on line 29.
+ 1 APPPATH/Controllers/Api/Rfid.php(40): App\Models\ArusStokModel->rfidCheck()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Rfid->show()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-19 08:37:55 --> Trying to get property 'barang_masuk_detail' of non-object
+in APPPATH/Models/ArusStokModel.php on line 32.
+ 1 APPPATH/Models/ArusStokModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Api/Rfid.php(40): App\Models\ArusStokModel->rfidCheck()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Rfid->show()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-19 08:39:52 --> Trying to get property 'barang_masuk_detail' of non-object
+in APPPATH/Models/ArusStokModel.php on line 32.
+ 1 APPPATH/Models/ArusStokModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Api/Rfid.php(40): App\Models\ArusStokModel->rfidCheck()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Rfid->show()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-19 08:40:15 --> Call to a member function getResult() on array
+in APPPATH/Models/ArusStokModel.php on line 32.
+ 1 APPPATH/Controllers/Api/Rfid.php(40): App\Models\ArusStokModel->rfidCheck()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Rfid->show()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-19 22:16:18 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, array given, called in /opt/lampp/htdocs/gudang/system/Model.php on line 771
+in SYSTEMPATH/Database/BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH/Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 2 APPPATH/Models/ArusStokModel.php(76): CodeIgniter\Model->__call()
+ 3 APPPATH/Controllers/Api/Rfid.php(20): App\Models\ArusStokModel->rfidAll()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Rfid->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-19 22:16:29 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, array given, called in /opt/lampp/htdocs/gudang/app/Models/ArusStokModel.php on line 76
+in SYSTEMPATH/Database/BaseResult.php on line 96.
+ 1 APPPATH/Models/ArusStokModel.php(76): CodeIgniter\Database\BaseResult->getResult()
+ 2 APPPATH/Controllers/Api/Rfid.php(20): App\Models\ArusStokModel->rfidAll()
+ 3 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Rfid->index()
+ 4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

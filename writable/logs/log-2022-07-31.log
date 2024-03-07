@@ -1,0 +1,105 @@
+ERROR - 2022-07-31 11:10:13 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-07-31 11:10:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/SubLokasiModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Api/SubLokasi.php(19): App\Models\SubLokasiModel->getLokasiAll()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\SubLokasi->index()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-31 11:10:21 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-07-31 11:10:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/ArusStokModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Api/Stok.php(24): App\Models\ArusStokModel->getArusStok()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->index()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-31 11:10:21 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-07-31 11:10:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/BarangMasukDetailModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Api/BarangMasuk.php(22): App\Models\BarangMasukDetailModel->getBarangMasuk()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangMasuk->index()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-31 11:10:21 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-07-31 11:10:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/BarangKeluarDetailModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Api/BarangKeluar.php(22): App\Models\BarangKeluarDetailModel->getBarangMasuk()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\BarangKeluar->index()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-31 23:32:38 --> Unknown column 'table_detail_barang_masuk.basrang' in 'where clause'
+CRITICAL - 2022-07-31 23:32:38 --> Unknown column 'table_detail_barang_masuk.basrang' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ArusStokModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Api/Stok.php(38): App\Models\ArusStokModel->getInStok()
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->show()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-31 23:33:15 --> Call to a member function getResult() on null
+in APPPATH/Controllers/Api/Stok.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->show()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-31 23:34:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getLastQuery()
+in APPPATH/Models/ArusStokModel.php on line 57.
+ 1 APPPATH/Controllers/Api/Stok.php(39): App\Models\ArusStokModel->getInStok()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->show()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-31 23:34:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getQuery()
+in APPPATH/Models/ArusStokModel.php on line 58.
+ 1 APPPATH/Controllers/Api/Stok.php(39): App\Models\ArusStokModel->getInStok()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->show()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-31 23:34:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getQuery()
+in APPPATH/Models/ArusStokModel.php on line 58.
+ 1 APPPATH/Controllers/Api/Stok.php(39): App\Models\ArusStokModel->getInStok()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->show()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-31 23:43:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::where()
+in APPPATH/Models/ArusStokModel.php on line 60.
+ 1 APPPATH/Controllers/Api/Stok.php(38): App\Models\ArusStokModel->getInStok()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Api\Stok->show()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
